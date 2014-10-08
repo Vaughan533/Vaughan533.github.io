@@ -1,73 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>This is a sample title.</title>
+        <title>Kittens and Things</title>
         <link rel="stylesheet" href="css/base.css" />
     </head>
     <body>
-        <h1>Hello world!</h1>
-        
-            <img src="img/cat1.jpg" alt="Stoic kitten" title="This is a very stoic kitten." />
-
-        <h2>This is a secondary heading</h2>
-
-            <p>Remember style tages like <em>emphasis (em)</em>, <strong>strong (strong)</strong>, and <code>code (code)</code></p>
-
-        <h2>Links</h2>
-
-            <h3>External Links</h3>
-
-                <p>I want <a href="http://google.com" target="_blank" title="Google">these words</a> to link to Google.</p>
-                <p>External links require an absolute URL, which is a reference using "http://". <code>href="http://google.com"</code> creates the hyperlink reference, <code>target="_blank"</code> opens the link in a new window, and <code>title="Google"</code> creates the hover title for greater accessability</p>
-
-        <h3>Internal Links</h3>
-
-                <p>I want to link to a page <a href="about.html">about me</a>.</p>
-
-                <p>Internal links use a relative url, which references a file in the local directory. <code>a href="about.html"</code> references the about.html file in the folder</p>
-
-        <h3>Mailto Links</h3>
-
-                <p>I want an email to be <a href="mailto:name@domain.com">sent to me.</a></p>
-        
-            <img src="img/cat2.jpg" width="300" alt="Silly kitten" title="This is a very silly kitten." />
-    
-        <h2>Lists and Tables</h2>
-        
-            <h3>Lists</h3>
-        
-                <ul>
-                    <li>Unordered lists (<code>ul</code>) use bullet points.</li>
-                    <li>List terms are nested with <code>li</code>.</li>
-                    <li>Kittens are delightful.</li>
-                </ul>
-
-                <ol>
-                    <li>Ordered lists (<code>ol</code>) will use numbers.</li>
-                    <li>Kittens are wonderful.</li>
-                </ol>
-        
-                <dl>
-                    <dt>Definition List</dt>
-                    <dd>A list using a involving a term (<code>dt</code>) and a definition (<code>dd</code>).</dd>
-                </dl>
-            
-            <h3>Tables</h3>
-        
-                <p>Tables are used for <strong>tabular data only</strong>, and should not be employed for <strong>page formatting</strong>.
-
-                <p>Use the container tag <code>table</code>, and then use <code>tr</code> to create rows.</p>
-
-                <p>Within each <code>tr</code> tag, data is nested with <code>td</code>.</p>
-                    <table>
-                        <tr>
-                            <td>Kitten A</td>
-                            <td>Kitten B</td>
-                        </tr>
-                        <tr>
-                            <td>Kitten C</td>
-                            <td>Kitten D</td>
-                        </tr>
-                    </table>
+        <header>
+            <h1><a href="index.html">Kittens and Things</a></h1>
+            <nav><a href="about.html">About</a></nav>
+        </header>
+        <article>
+            <h1>Kittens</h1>
+            <h2>And also things.</h2>
+            <p>Even though boths kittens and things are deeply important, rememebr that HTML tagging is important                as well.</p>
+            <p>The tag <code>h1</code> will denote the most important heading <em>per container that it exists                    in</em>.</p>
+            <p>This means that <code>h1</code> can be used several times, and will be treated differently each                    time. As can already be seen, the heading for "Kittens and Things" in the <code>header</code>                      container and the heading "Kittens" in the <code>article</code> container already look different,                  even though both are under a <code>h1</code> tag.</p>
+        </article>
+        <footer>
+            <p>This is a footer, where other links and information will one day go.</p>
+        </footer>
     </body>
 </html>
