@@ -73,7 +73,6 @@ aside {
     margin-left: 5%; /* remember to use % when horizontal */
     margin-bottom: 10px; /* remember to use pixels when vertical */
     /* This could also be done by combining margins- margin: 0 0 10px 5% */
-    background-color: #000;
     float: right;
 }
 
@@ -81,4 +80,19 @@ footer {
     font-size: 10px;
     padding: 0 10px 0 10px;
     clear: both; /* Clear is used to make the element ignore the float effects of a block-level element directly preceding it */
+}
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        padding: 5%;   
+    }
+    
+    h1, h2 {
+        text-align: center;
+    }
+    aside {
+        width: 100%;
+        clear: both;
+    }
 }
