@@ -49,6 +49,10 @@ footer p {
     color: #ffffff;   
 }
 
+footer a {
+    color: #ffffff;   
+}
+
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
