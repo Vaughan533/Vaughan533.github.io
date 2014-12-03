@@ -102,6 +102,10 @@ footer p {
    clear: both;
 }
 
+.staff {
+    padding-left: 205px;   
+}
+
 .dateline {
     font-weight: bold;
 }
