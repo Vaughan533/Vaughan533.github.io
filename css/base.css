@@ -79,7 +79,7 @@ footer p {
     float: left;
 }
 
-.half article h3, h4 {
+.half article h3, .half article h4 {
     line-height: 5px;
 }
 
@@ -106,7 +106,7 @@ footer p {
 }
 
 .staff {
-    padding-left: 205px;   
+    margin-left: 205px;   
 }
 
 
@@ -124,5 +124,18 @@ footer p {
     .about img {
         width: 100%;   
     }
+    
+    .artnav {
+        display: none;
+    }
+    
+    .research {
+        margin-left: 5px;
+    }
+    
+    .staff {
+        margin-left: 5px;
+    }
+    
     
 }
