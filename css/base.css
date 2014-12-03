@@ -63,6 +63,11 @@ footer p {
     margin: 0 0 5px 5px;
 }
 
+#about-img-left {
+    float: left;
+    margin: 0 5px 0 5px;
+}
+
 .half {
     width: 48%;
     padding-right: 2%;
