@@ -98,6 +98,10 @@ footer p {
     line-height: 5px;
 }
 
+.research p {
+   clear: both;
+}
+
 .dateline {
     font-weight: bold;
 }
