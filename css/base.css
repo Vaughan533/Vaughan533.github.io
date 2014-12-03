@@ -30,7 +30,8 @@ nav a:hover {
 
 
 article img {
-   float: left;
+    float: left;
+    margin-right: 5px;
     
 }
 
@@ -61,6 +62,12 @@ footer p {
     padding-right: 2%;
     float: left;
 }
+
+.half article h3, h4 {
+    line-height: 5px;
+    
+}
+
 
 .dateline {
     font-weight: bold;
