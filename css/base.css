@@ -86,20 +86,23 @@ footer p {
 .artnav {
     width: 200px;
     background-color: #C0C0C0;
+    margin-top: 5px;
     float: left;
-    margin: 5px 5px 0 0;
 }
 
 .research {
-    padding-left: 205px;
+    margin-left: 205px;
 }
 
-.research h2, .research h3 {
-    line-height: 5px;
+.research img {
+    float: none;
 }
 
-.research p {
-   clear: both;
+
+.caption {
+    font-size: 13px;
+    font-style: italic;
+    margin: -5px 0 50px 0;
 }
 
 .staff {
