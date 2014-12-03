@@ -35,6 +35,11 @@ article img {
     
 }
 
+iframe {
+    width: 100%;
+    margin-top: 5px;
+}
+
 footer {
     clear: both;
     background-color: #000044;
