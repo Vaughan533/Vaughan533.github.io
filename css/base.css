@@ -67,6 +67,10 @@ footer a {
 }
 
 
+.dateline {
+    font-weight: bold;
+}
+
 .about img {
     float: right;
     margin: 0 0 5px 5px;
@@ -113,11 +117,10 @@ footer a {
     margin-left: 205px;   
 }
 
-
-.dateline {
-    font-weight: bold;
+.staff img {
+    float: none;
+    margin-top: 5px;
 }
-
 
 @media (max-width: 600px) {
 
