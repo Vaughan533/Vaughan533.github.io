@@ -83,6 +83,12 @@ footer p {
     line-height: 5px;
 }
 
+.artnav {
+    width: 200px;
+    background-color: #C0C0C0;
+    float: left;
+}
+
 
 .dateline {
     font-weight: bold;
