@@ -94,6 +94,10 @@ footer p {
     padding-left: 205px;
 }
 
+.research h2, .research h3 {
+    line-height: 5px;
+}
+
 .dateline {
     font-weight: bold;
 }
