@@ -2,8 +2,15 @@
     font-family: "Droid Sans", sans-serif;
 }
 
+body {
+    font-size: 16px;
+    line-height: 24px
+}
+
 header h1 {
-    float: left;
+    position: absolute;
+    color: #ffffff;
+    margin-left: 5px;
 }
 
 nav {
@@ -13,14 +20,27 @@ nav {
 nav a {
     text-decoration: none;
     color: #ffffff;
+    margin: 0 50px 0 5px;
+    font-size: 18px;
 }
 
 nav a:hover {
     color: #000000;
 }
 
+
+article img {
+   float: left;
+    
+}
+
 footer {
     clear: both;
+    background-color: #000044;
+}
+
+footer p {
+    color: #ffffff;   
 }
 
 .wrapper {
@@ -32,10 +52,20 @@ footer {
     width: 100%;
 }
 
+.intro {
+    font-style: italic;
+}
+
 .half {
-    width: 50%;
+    width: 48%;
+    padding-right: 2%;
     float: left;
 }
+
+.dateline {
+    font-weight: bold;
+}
+
 
 @media (max-width: 600px) {
 
