@@ -87,8 +87,12 @@ footer p {
     width: 200px;
     background-color: #C0C0C0;
     float: left;
+    margin: 5px 5px 0 0;
 }
 
+.research {
+    padding-left: 205px;
+}
 
 .dateline {
     font-weight: bold;
@@ -104,4 +108,5 @@ footer p {
     .about img {
         width: 100%;   
     }
+    
 }
