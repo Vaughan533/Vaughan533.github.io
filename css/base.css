@@ -57,6 +57,12 @@ footer p {
     font-style: italic;
 }
 
+
+.about img {
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
 .half {
     width: 48%;
     padding-right: 2%;
@@ -65,7 +71,6 @@ footer p {
 
 .half article h3, h4 {
     line-height: 5px;
-    
 }
 
 
